@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+datos_salida/
+exportaciones/
+datos_entrada/*.xlsx
+datos_entrada/*.csv
+.env
+.venv/
+build/
+dist/
+*.spec

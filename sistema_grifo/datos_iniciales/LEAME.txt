@@ -1,0 +1,3 @@
+Coloque aquí sus archivos Excel/CSV (SIMULADO_grifo_resumen.xlsx, SIMULADO_ventas_consola.xlsx,
+VERDAD_OCULTA_simulacion.xlsx) y súbalos a GitHub. Si la app arranca sin datos (por ejemplo, en el
+plan gratuito de Render, que no guarda archivos), los importa automáticamente.

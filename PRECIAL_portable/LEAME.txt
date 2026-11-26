@@ -1,0 +1,41 @@
+PRECIAL — Gestión y optimización de precios para grifo (versión local)
+=======================================================================
+
+CÓMO INSTALAR
+1. Descomprima el ZIP en cualquier carpeta (por ejemplo, Documentos\PRECIAL).
+   No lo ejecute desde dentro del ZIP.
+2. Abra PRECIAL.exe. No necesita internet ni instalar Python.
+   - Si Windows muestra "Windows protegió su PC": clic en "Más información" →
+     "Ejecutar de todas formas" (el programa no tiene firma digital comercial).
+3. La primera vez se cargan automáticamente 6 meses de datos de EJEMPLO para que
+   pueda probar todo, y se abre un TUTORIAL GUIADO que explica cada sección y botón.
+   Con "Borrar todos los datos" + "Importar datos" usa los suyos.
+4. En el menú lateral: "❓ Tutorial" repite el recorrido y "📘 Manual" exporta el
+   manual de usuario completo en Word (con capturas de cada pantalla).
+
+DÓNDE QUEDAN SUS DATOS
+Todo se guarda en esta misma carpeta (datos_salida\ y exportaciones\). Nada se envía
+a internet. Para respaldar o pasar sus datos a otra PC, copie la carpeta completa.
+
+QUÉ RESPONDE EL PROGRAMA
+- Inicio → "Decisiones de hoy":
+    GERENCIAL: qué precio fijar a cada combustible y cuándo cambiará el precio del proveedor.
+    OPERATIVA: si hay que pedir cisterna hoy (días de cobertura del stock).
+- Inventario: costo real FIFO del galón que se está vendiendo.
+- Pronóstico (Modelo 1): fecha, dirección y monto probable del próximo cambio del proveedor.
+- Precio óptimo (Modelo 2): precio que maximiza la utilidad respetando margen 5–15 % y stock.
+- Validación: cuánto más se habría ganado frente a un margen fijo del 8 %.
+
+PARA EL ARTÍCULO
+Menú "Exportar artículo" → "Exportar todo". Genera en exportaciones\:
+- BORRADOR_ARTICULO.docx  : artículo completo (resumen, introducción, metodología,
+                            resultados, matriz de decisiones, conclusiones y referencias)
+                            con las cifras, tablas y figuras de SUS datos. Complete las
+                            partes resaltadas en amarillo [COMPLETAR: ...].
+- TABLAS_PARA_ARTICULO.xlsx, graficos\ (PNG 300 DPI), RESUMEN_RESULTADOS.txt
+
+FORMATO DE LOS ARCHIVOS A IMPORTAR (Excel o CSV)
+Ventas (fecha, producto, volumen, precio), compras/cisternas (fecha_llegada, producto,
+volumen, costo_galon), precios del proveedor (fecha, producto, precio), inventario inicial
+(fecha, producto, stock, costo). Los nombres de columnas son flexibles; el programa detecta
+cada hoja automáticamente. Productos: DB5, GR, GP.

@@ -1,0 +1,14 @@
+﻿parametro,valor
+nota,"""VERDAD OCULTA de la simulacion: sirve solo para validar modelos, nunca como entrada."""
+sensibilidad_kappa,"{""DB5"": 18.0, ""GR"": 20.0, ""GP"": 19.0}"
+elasticidad_en_precio_mercado,"{""DB5"": 9.0, ""GR"": 10.0, ""GP"": 9.5}"
+margen_politica_grifo,0.08
+margen_mercado,0.085
+costo_final_lista,"{""DB5"": 22.95, ""GR"": 19.8, ""GP"": 20.73}"
+n_eventos_cambio_lista,25.0
+intervalo_medio_dias,6.999508101851852
+capacidad,"{""DB5"": 12000, ""GR"": 7000, ""GP"": 5500}"
+cisterna,"{""DB5"": 5000, ""GR"": 4000, ""GP"": 3000}"
+punto_reorden,"{""DB5"": 4500, ""GR"": 3000, ""GP"": 2300}"
+demanda_media_dia,"{""DB5"": 2010.0, ""GR"": 1130.0, ""GP"": 750.0}"
+semilla,20261118.0
